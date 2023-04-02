@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Header styles */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 3px;
+    color: #fff;   
+    width: 96%;
+    
+}
+
+.logo img {
+    height: 200px;
+    width: 242px;
+    
+    
+    
+}
+
+.topic{
+    text-align:start;
+    width: 90%;
+    background: #1C86C2;
+   
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+/* Sidebar styles */
+aside {
+    background-color: #0080ff;
+    width: 200px;
+    height: 71%;
+    position: fixed;
+    top: 20%;
+    margin-top: 2%;
+    padding: 10px;
+    margin-left:1%;
+}
+.sidebar {
+    display: grid;
+    justify-content: center;
+  }
+
+.sidebar button {
+    
+    width: 83%;
+    padding: 20px;
+    border:none;
+    background-color: #C01C58;
+    text-align: center;
+    cursor: pointer;
+    display:flex;
+    align-items: center;
+    display: block;
+    cursor: pointer;
+  
+}
+ 
+.sidebar button:hover {
+    background-color: #666;
+}
+
+/* Main content styles */
+
+
+main{
+    background-color: #1C86C2;
+    margin-left: 300px;
+    margin-top: 1%;
+    width: 70%;
+    padding: 2%;
+    height: 50%;
+    position: fixed;
+    margin-right: 50px;
+    margin-bottom: 10px;
+
+}
+.profile-button {
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 2px;
+    float: top;
+    margin-right: 110px;
+    margin: 30%;
+}
+
+.menu-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+button:not(.menu-button) {
+    margin: 5px 10px;
+}
+
+h2{
+    background-color: #fff;
+    align-items: center;
+    padding: 8px 16px;
+    margin-bottom: 10px;
+    text-align: center;
+}
