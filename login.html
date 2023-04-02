@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Title of the page -->
+    <title>Login Page</title>
+    
+    <!-- Link to the external CSS file for styling -->
+    <link rel="stylesheet" type="text/css" href="login-style.css">
+</head>
+<body>
+    <!-- Main container for the login form -->
+    <div class="main">
+        <!-- Logo image for the login page -->
+        <img src="https://tinypic.host/images/2023/03/26/traffic-management-system-logo.png" alt="Your Logo">
+        
+        <!-- Login form starts here -->
+        <form>
+            <!-- Header for the login form -->
+            <h2>Login</h2>
+            
+            <!-- Username or email input field -->
+            <label for="username">Username or Email:</label>
+            <input type="text" id="username" name="username">
+            
+            <!-- Password input field -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            
+            <!-- Remember me checkbox and forgot password link -->
+            <div class="checkbox-container">
+                <div class="remember-forgot-container">
+                    <label for="remember-me">
+                        <input type="checkbox" id="remember-me" name="remember-me">Remember me   &nbsp &nbsp&nbsp&nbsp&nbsp
+                        <a href="#">Forgot password?</a>
+                    </label>
+                </div>
+            </div>
+            
+            <!-- Login button -->
+            <input type="submit" value="Login">
+            
+            <!-- Registration link for new users -->
+            <br>
+            <p>New user?&nbsp;<a href="#">Register</a></p>
+        </form>
+    </div>
+</body>
+</html>
